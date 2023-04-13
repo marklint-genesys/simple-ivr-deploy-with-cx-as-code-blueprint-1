@@ -21,7 +21,7 @@ resource "genesyscloud_user" "sf_joesmith" {
   addresses {
 
     phone_numbers {
-      number     = "9205551212"
+      number     = "+19205551212"
       media_type = "PHONE"
       type       = "MOBILE"
     }
@@ -45,7 +45,7 @@ resource "genesyscloud_user" "sf_suesmith" {
   addresses {
 
     phone_numbers {
-      number     = "9205551212"
+      number     = "+19205551212"
       media_type = "PHONE"
       type       = "MOBILE"
     }

@@ -111,7 +111,7 @@ resource "genesyscloud_architect_ivr" "mysimple_ivr" {
   name               = "A simple IVRMSL"
   description        = "A sample IVR configuration"
   dnis               = ["+18885422729", "+18885422729"]
-  open_hours_flow_id = genesyscloud_flow.mysimpleflow.id
+  open_hours_flow_id = genesyscloud_flow.mysimpleflowMSL.id
   depends_on         = [
     genesyscloud_flow.mysimpleflowMSL,
     genesyscloud_telephony_providers_edges_did_pool.mygcv_number

@@ -107,7 +107,7 @@ resource "genesyscloud_telephony_providers_edges_did_pool" "mygcv_number" {
   comments           = "Additional comments"
 }
 
-resource "genesyscloud_architect_ivr" "mysimple_ivrMSL" {
+resource "genesyscloud_architect_ivr" "mysimple_ivr" {
   name               = "A simple IVRMSL"
   description        = "A sample IVR configuration"
   dnis               = ["+18885422729", "+18885422729"]
